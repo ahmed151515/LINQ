@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectionOperation", "Proj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingData", "SortingData\SortingData.csproj", "{58D431FB-6F49-4F74-BBB4-519792A753D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPartitioning", "DataPartitioning\DataPartitioning.csproj", "{470549C7-399A-4138-9EFE-F6F0BE7CC781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Another_playlist", "Another_playlist\Another_playlist.csproj", "{14728B5B-CBB7-45CC-AFC0-E61959E51D63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{58D431FB-6F49-4F74-BBB4-519792A753D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58D431FB-6F49-4F74-BBB4-519792A753D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58D431FB-6F49-4F74-BBB4-519792A753D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470549C7-399A-4138-9EFE-F6F0BE7CC781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470549C7-399A-4138-9EFE-F6F0BE7CC781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470549C7-399A-4138-9EFE-F6F0BE7CC781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470549C7-399A-4138-9EFE-F6F0BE7CC781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14728B5B-CBB7-45CC-AFC0-E61959E51D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14728B5B-CBB7-45CC-AFC0-E61959E51D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14728B5B-CBB7-45CC-AFC0-E61959E51D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14728B5B-CBB7-45CC-AFC0-E61959E51D63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
