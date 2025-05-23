@@ -40,10 +40,11 @@ namespace Another_playlist
 			//Quantifier();
 			//MoreLinqOperators();
 			//MoreLinqOperatorsPart2();
-			Into();
+			//Into();
 
 
 		}
+
 
 
 		static void AnonymousType()
@@ -215,6 +216,9 @@ namespace Another_playlist
 
 			var customerHasMaxSpend = Customers.Max(new CompareCustomerBySpendAverage());
 			customerHasMaxSpend.Print(nameof(customerHasMaxSpend));
+
+			var customerHasMaxSpendUsingMaxBy = Customers.MaxBy((c) => c.spendAverage);
+			customerHasMaxSpendUsingMaxBy.Print(nameof(customerHasMaxSpendUsingMaxBy));
 
 			var averageSpend = Customers.Average(c => c.spendAverage);
 			averageSpend.Print(nameof(averageSpend));
@@ -515,6 +519,7 @@ namespace Another_playlist
 				});
 
 
+
 			discounts.Print(nameof(discounts));
 
 			var sumOfRange50 = Enumerable.Range(1, 5).Aggregate(0, (seed, n) =>
@@ -550,6 +555,8 @@ namespace Another_playlist
 					   orderby newN.Length, n.Length
 					   select newN;
 		}
+
+
 	}
 }
 
